@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: traffic-coordination
+Version: 0.1.0
+Summary: Mesa simulator for mixed industrial traffic coordination
+Requires-Python: >=3.11
+Requires-Dist: mesa==3.3.1

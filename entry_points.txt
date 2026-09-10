@@ -1,0 +1,3 @@
+[console_scripts]
+traffic-dashboard = traffic_sim.dashboard:main
+traffic-sim = traffic_sim.cli:main

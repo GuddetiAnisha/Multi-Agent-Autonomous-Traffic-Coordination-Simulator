@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820">
+<rect width="1200" height="820" fill="#0c1421"/>
+<g font-family="Segoe UI, Arial" fill="#e5edf6">
+<text x="40" y="45" font-size="26" font-weight="bold">Traffic coordination / experiment results</text>
+<text x="40" y="72" font-size="14" fill="#92a6bd">18 trucks + 8 manual vehicles | 5 paired seeds | 300s warm-up + 1,800s observation</text>
+<rect x="40" y="94" width="18" height="5" fill="#ffbc68"/><text x="65" y="103" font-size="14">local</text>
+<rect x="230" y="94" width="18" height="5" fill="#7ba5ff"/><text x="255" y="103" font-size="14">centralized</text>
+<rect x="420" y="94" width="18" height="5" fill="#48d8c0"/><text x="445" y="103" font-size="14">broker</text>
+<text x="40" y="140" font-size="18">Truck deliveries / hour</text>
+<line x1="95" y1="365.0" x2="570" y2="365.0" stroke="#25364a"/><text x="88" y="369.0" text-anchor="end" font-size="11" fill="#92a6bd">0.00</text>
+<line x1="95" y1="315.0" x2="570" y2="315.0" stroke="#25364a"/><text x="88" y="319.0" text-anchor="end" font-size="11" fill="#92a6bd">156.53</text>
+<line x1="95" y1="265.0" x2="570" y2="265.0" stroke="#25364a"/><text x="88" y="269.0" text-anchor="end" font-size="11" fill="#92a6bd">313.06</text>
+<line x1="95" y1="215.0" x2="570" y2="215.0" stroke="#25364a"/><text x="88" y="219.0" text-anchor="end" font-size="11" fill="#92a6bd">469.59</text>
+<line x1="95" y1="165.0" x2="570" y2="165.0" stroke="#25364a"/><text x="88" y="169.0" text-anchor="end" font-size="11" fill="#92a6bd">626.12</text>
+<circle cx="95.0" cy="206.81945952852493" r="4" fill="#ffbc68"/>
+<circle cx="190.0" cy="206.81945952852493" r="4" fill="#ffbc68"/>
+<circle cx="332.5" cy="206.81945952852493" r="4" fill="#ffbc68"/>
+<circle cx="570.0" cy="206.81945952852493" r="4" fill="#ffbc68"/>
+<polyline points="95.0,206.81945952852493 190.0,206.81945952852493 332.5,206.81945952852493 570.0,206.81945952852493" fill="none" stroke="#ffbc68" stroke-width="2.5"/>
+<circle cx="95.0" cy="183.30958921612475" r="4" fill="#7ba5ff"/>
+<circle cx="190.0" cy="184.97061266210954" r="4" fill="#7ba5ff"/>
+<circle cx="332.5" cy="218.19108158180543" r="4" fill="#7ba5ff"/>
+<circle cx="570.0" cy="271.0882897847058" r="4" fill="#7ba5ff"/>
+<polyline points="95.0,183.30958921612475 190.0,184.97061266210954 332.5,218.19108158180543 570.0,271.0882897847058" fill="none" stroke="#7ba5ff" stroke-width="2.5"/>
+<circle cx="95.0" cy="183.18181818181822" r="4" fill="#48d8c0"/>
+<circle cx="190.0" cy="190.3369961029835" r="4" fill="#48d8c0"/>
+<circle cx="332.5" cy="241.70095189420562" r="4" fill="#48d8c0"/>
+<circle cx="570.0" cy="292.0427394109755" r="4" fill="#48d8c0"/>
+<polyline points="95.0,183.18181818181822 190.0,190.3369961029835 332.5,241.70095189420562 570.0,292.0427394109755" fill="none" stroke="#48d8c0" stroke-width="2.5"/>
+<text x="95.0" y="386" text-anchor="middle" font-size="12" fill="#92a6bd">0s</text>
+<text x="190.0" y="386" text-anchor="middle" font-size="12" fill="#92a6bd">2s</text>
+<text x="332.5" y="386" text-anchor="middle" font-size="12" fill="#92a6bd">5s</text>
+<text x="570.0" y="386" text-anchor="middle" font-size="12" fill="#92a6bd">10s</text>
+<text x="290" y="409" text-anchor="middle" font-size="12" fill="#92a6bd">One-way communication delay</text>
+<text x="630" y="140" font-size="18">Mean admission wait / seconds</text>
+<line x1="685" y1="365.0" x2="1160" y2="365.0" stroke="#25364a"/><text x="678" y="369.0" text-anchor="end" font-size="11" fill="#92a6bd">0.00</text>
+<line x1="685" y1="315.0" x2="1160" y2="315.0" stroke="#25364a"/><text x="678" y="319.0" text-anchor="end" font-size="11" fill="#92a6bd">7.03</text>
+<line x1="685" y1="265.0" x2="1160" y2="265.0" stroke="#25364a"/><text x="678" y="269.0" text-anchor="end" font-size="11" fill="#92a6bd">14.07</text>
+<line x1="685" y1="215.0" x2="1160" y2="215.0" stroke="#25364a"/><text x="678" y="219.0" text-anchor="end" font-size="11" fill="#92a6bd">21.10</text>
+<line x1="685" y1="165.0" x2="1160" y2="165.0" stroke="#25364a"/><text x="678" y="169.0" text-anchor="end" font-size="11" fill="#92a6bd">28.14</text>
+<circle cx="685.0" cy="302.54707423995137" r="4" fill="#ffbc68"/>
+<circle cx="780.0" cy="302.54707423995137" r="4" fill="#ffbc68"/>
+<circle cx="922.5" cy="302.54707423995137" r="4" fill="#ffbc68"/>
+<circle cx="1160.0" cy="302.54707423995137" r="4" fill="#ffbc68"/>
+<polyline points="685.0,302.54707423995137 780.0,302.54707423995137 922.5,302.54707423995137 1160.0,302.54707423995137" fill="none" stroke="#ffbc68" stroke-width="2.5"/>
+<circle cx="685.0" cy="307.505145866489" r="4" fill="#7ba5ff"/>
+<circle cx="780.0" cy="306.420475251963" r="4" fill="#7ba5ff"/>
+<circle cx="922.5" cy="284.2458903501034" r="4" fill="#7ba5ff"/>
+<circle cx="1160.0" cy="216.6395276149159" r="4" fill="#7ba5ff"/>
+<polyline points="685.0,307.505145866489 780.0,306.420475251963 922.5,284.2458903501034 1160.0,216.6395276149159" fill="none" stroke="#7ba5ff" stroke-width="2.5"/>
+<circle cx="685.0" cy="307.9588111091893" r="4" fill="#48d8c0"/>
+<circle cx="780.0" cy="305.608145247436" r="4" fill="#48d8c0"/>
+<circle cx="922.5" cy="269.3855894985777" r="4" fill="#48d8c0"/>
+<circle cx="1160.0" cy="183.1818181818182" r="4" fill="#48d8c0"/>
+<polyline points="685.0,307.9588111091893 780.0,305.608145247436 922.5,269.3855894985777 1160.0,183.1818181818182" fill="none" stroke="#48d8c0" stroke-width="2.5"/>
+<text x="685.0" y="386" text-anchor="middle" font-size="12" fill="#92a6bd">0s</text>
+<text x="780.0" y="386" text-anchor="middle" font-size="12" fill="#92a6bd">2s</text>
+<text x="922.5" y="386" text-anchor="middle" font-size="12" fill="#92a6bd">5s</text>
+<text x="1160.0" y="386" text-anchor="middle" font-size="12" fill="#92a6bd">10s</text>
+<text x="880" y="409" text-anchor="middle" font-size="12" fill="#92a6bd">One-way communication delay</text>
+<text x="40" y="440" font-size="18">Conflict exposure / pair-seconds</text>
+<line x1="95" y1="665.0" x2="570" y2="665.0" stroke="#25364a"/><text x="88" y="669.0" text-anchor="end" font-size="11" fill="#92a6bd">0.00</text>
+<line x1="95" y1="615.0" x2="570" y2="615.0" stroke="#25364a"/><text x="88" y="619.0" text-anchor="end" font-size="11" fill="#92a6bd">30348.23</text>
+<line x1="95" y1="565.0" x2="570" y2="565.0" stroke="#25364a"/><text x="88" y="569.0" text-anchor="end" font-size="11" fill="#92a6bd">60696.46</text>
+<line x1="95" y1="515.0" x2="570" y2="515.0" stroke="#25364a"/><text x="88" y="519.0" text-anchor="end" font-size="11" fill="#92a6bd">91044.69</text>
+<line x1="95" y1="465.0" x2="570" y2="465.0" stroke="#25364a"/><text x="88" y="469.0" text-anchor="end" font-size="11" fill="#92a6bd">121392.92</text>
+<circle cx="95.0" cy="483.18181818181824" r="4" fill="#ffbc68"/>
+<circle cx="190.0" cy="483.18181818181824" r="4" fill="#ffbc68"/>
+<circle cx="332.5" cy="483.18181818181824" r="4" fill="#ffbc68"/>
+<circle cx="570.0" cy="483.18181818181824" r="4" fill="#ffbc68"/>
+<polyline points="95.0,483.18181818181824 190.0,483.18181818181824 332.5,483.18181818181824 570.0,483.18181818181824" fill="none" stroke="#ffbc68" stroke-width="2.5"/>
+<circle cx="95.0" cy="591.4929124367385" r="4" fill="#7ba5ff"/>
+<circle cx="190.0" cy="635.4684589513129" r="4" fill="#7ba5ff"/>
+<circle cx="332.5" cy="647.9713297941922" r="4" fill="#7ba5ff"/>
+<circle cx="570.0" cy="637.4247509657071" r="4" fill="#7ba5ff"/>
+<polyline points="95.0,591.4929124367385 190.0,635.4684589513129 332.5,647.9713297941922 570.0,637.4247509657071" fill="none" stroke="#7ba5ff" stroke-width="2.5"/>
+<circle cx="95.0" cy="522.6012505506911" r="4" fill="#48d8c0"/>
+<circle cx="190.0" cy="623.9244578678888" r="4" fill="#48d8c0"/>
+<circle cx="332.5" cy="643.7931619076302" r="4" fill="#48d8c0"/>
+<circle cx="570.0" cy="624.0816334263975" r="4" fill="#48d8c0"/>
+<polyline points="95.0,522.6012505506911 190.0,623.9244578678888 332.5,643.7931619076302 570.0,624.0816334263975" fill="none" stroke="#48d8c0" stroke-width="2.5"/>
+<text x="95.0" y="686" text-anchor="middle" font-size="12" fill="#92a6bd">0s</text>
+<text x="190.0" y="686" text-anchor="middle" font-size="12" fill="#92a6bd">2s</text>
+<text x="332.5" y="686" text-anchor="middle" font-size="12" fill="#92a6bd">5s</text>
+<text x="570.0" y="686" text-anchor="middle" font-size="12" fill="#92a6bd">10s</text>
+<text x="290" y="709" text-anchor="middle" font-size="12" fill="#92a6bd">One-way communication delay</text>
+<text x="630" y="440" font-size="18">Resource utilization / fraction</text>
+<line x1="685" y1="665.0" x2="1160" y2="665.0" stroke="#25364a"/><text x="678" y="669.0" text-anchor="end" font-size="11" fill="#92a6bd">0.00</text>
+<line x1="685" y1="615.0" x2="1160" y2="615.0" stroke="#25364a"/><text x="678" y="619.0" text-anchor="end" font-size="11" fill="#92a6bd">0.09</text>
+<line x1="685" y1="565.0" x2="1160" y2="565.0" stroke="#25364a"/><text x="678" y="569.0" text-anchor="end" font-size="11" fill="#92a6bd">0.18</text>
+<line x1="685" y1="515.0" x2="1160" y2="515.0" stroke="#25364a"/><text x="678" y="519.0" text-anchor="end" font-size="11" fill="#92a6bd">0.26</text>
+<line x1="685" y1="465.0" x2="1160" y2="465.0" stroke="#25364a"/><text x="678" y="469.0" text-anchor="end" font-size="11" fill="#92a6bd">0.35</text>
+<circle cx="685.0" cy="492.31527389709174" r="4" fill="#ffbc68"/>
+<circle cx="780.0" cy="492.31527389709174" r="4" fill="#ffbc68"/>
+<circle cx="922.5" cy="492.31527389709174" r="4" fill="#ffbc68"/>
+<circle cx="1160.0" cy="492.31527389709174" r="4" fill="#ffbc68"/>
+<polyline points="685.0,492.31527389709174 780.0,492.31527389709174 922.5,492.31527389709174 1160.0,492.31527389709174" fill="none" stroke="#ffbc68" stroke-width="2.5"/>
+<circle cx="685.0" cy="483.7138641458147" r="4" fill="#7ba5ff"/>
+<circle cx="780.0" cy="485.25031739440726" r="4" fill="#7ba5ff"/>
+<circle cx="922.5" cy="516.2471106237813" r="4" fill="#7ba5ff"/>
+<circle cx="1160.0" cy="567.5281562305225" r="4" fill="#7ba5ff"/>
+<polyline points="685.0,483.7138641458147 780.0,485.25031739440726 922.5,516.2471106237813 1160.0,567.5281562305225" fill="none" stroke="#7ba5ff" stroke-width="2.5"/>
+<circle cx="685.0" cy="483.18181818181824" r="4" fill="#48d8c0"/>
+<circle cx="780.0" cy="486.606011437283" r="4" fill="#48d8c0"/>
+<circle cx="922.5" cy="531.6474538957445" r="4" fill="#48d8c0"/>
+<circle cx="1160.0" cy="581.4517308972904" r="4" fill="#48d8c0"/>
+<polyline points="685.0,483.18181818181824 780.0,486.606011437283 922.5,531.6474538957445 1160.0,581.4517308972904" fill="none" stroke="#48d8c0" stroke-width="2.5"/>
+<text x="685.0" y="686" text-anchor="middle" font-size="12" fill="#92a6bd">0s</text>
+<text x="780.0" y="686" text-anchor="middle" font-size="12" fill="#92a6bd">2s</text>
+<text x="922.5" y="686" text-anchor="middle" font-size="12" fill="#92a6bd">5s</text>
+<text x="1160.0" y="686" text-anchor="middle" font-size="12" fill="#92a6bd">10s</text>
+<text x="880" y="709" text-anchor="middle" font-size="12" fill="#92a6bd">One-way communication delay</text>
+<text x="40" y="772" font-size="13" fill="#92a6bd">Means across five runs. Synthetic resource model; conflict exposure is contention, not collisions.</text>
+<text x="40" y="795" font-size="13" fill="#92a6bd">See summary.csv for standard deviations and README.md for policy assumptions.</text>
+</g></svg>

@@ -1,0 +1,28 @@
+{
+  "config": {
+    "strategy": "broker",
+    "trucks": 18,
+    "manual_vehicles": 8,
+    "communication_delay": 2,
+    "seed": 42,
+    "service_seconds": 12,
+    "central_grants_per_tick": 2
+  },
+  "delays": [
+    0,
+    2,
+    5,
+    10
+  ],
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "steps": 1800,
+  "warmup": 300,
+  "mesa": "3.3.1",
+  "time_unit": "second"
+}
