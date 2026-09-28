@@ -62,3 +62,45 @@ This is a thesis starting point, not a validated CAVE reproduction. No thesis te
 Extend resources and vehicle routes together for another layout, _request for communication changes, and _rank for policy changes. Config controls fleet, service, delay, seed and dispatch budget. Tests cover capacity, deterministic replay, latency, warm-up invariance, fleet edge cases and exports.
 
 Mesa API reference: https://mesa.readthedocs.io/stable/mesa.html . The code uses Model, Agent and DataCollector and pins Mesa 3.3.1; Mesa 4 requires API review.
+
+
+## Reinforcement-learning and explainability extension
+
+A small software-only reinforcement-learning extension has been added to support experiments with human-centred explainability.
+
+### What it adds
+
+- a compact tabular Q-learning traffic controller
+- synthetic state features for queue pressure, congestion, and resource load
+- a discrete action space for traffic-control decisions
+- reproducible training with fixed random seeds
+- feature-importance explanations based on local perturbation of the selected action value
+- temporal-outcome explanations that summarise predicted short-horizon consequences
+- a simple comparison format for four study conditions:
+  - no explanation
+  - feature importance only
+  - temporal outcome only
+  - temporal outcome + feature importance
+- automated Pytest validation
+- a runnable demonstration script
+
+### Why this extension is useful
+
+The purpose is not to claim a production-ready RL controller. It provides a compact experimental platform for comparing explanation styles around sequential decisions and for prototyping user-study infrastructure.
+
+### Run the demo
+
+```bash
+python rl_explainability_demo.py
+```
+
+### Run the tests
+
+```bash
+pytest -q tests/test_rl_explainability.py
+```
+
+### CV-safe description
+
+- Extended the traffic simulator with a software-only tabular Q-learning controller for sequential traffic decisions and reproducible policy experiments.
+- Added human-readable feature-importance and short-horizon temporal-outcome explanations to support comparison of different explanation conditions for agent decisions.
