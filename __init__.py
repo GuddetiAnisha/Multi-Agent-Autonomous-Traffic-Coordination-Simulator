@@ -1,2 +1,5 @@
-from .model import Config, TrafficModel
-__all__ = ["Config", "TrafficModel"]
+"""Repository marker.
+
+Core simulator classes live in model.py. This file intentionally avoids
+importing optional runtime dependencies during test discovery.
+"""
