@@ -55,13 +55,6 @@ All share a capacity safety interlock. Brokers are a queue-based heuristic repre
 
 Warm-up resets measurements while preserving traffic and pending communication state. Unloads completed during observation count even if loading occurred in warm-up. Mesa DataCollector stores model metrics; model.history stores full exports.
 
-## Research scope
-
-This is a thesis starting point, not a validated CAVE reproduction. No thesis text, facility layout or calibration data was provided. Findings depend on this synthetic network and these policy definitions. Calibrate service/travel distributions, validate queue assumptions, test dispatch capacity and fleet mix, assess warm-up/convergence, and use more paired replications with uncertainty analysis before drawing thesis conclusions. No policy is assumed to win.
-
-Extend resources and vehicle routes together for another layout, _request for communication changes, and _rank for policy changes. Config controls fleet, service, delay, seed and dispatch budget. Tests cover capacity, deterministic replay, latency, warm-up invariance, fleet edge cases and exports.
-
-Mesa API reference: https://mesa.readthedocs.io/stable/mesa.html . The code uses Model, Agent and DataCollector and pins Mesa 3.3.1; Mesa 4 requires API review.
 
 
 ## Reinforcement-learning and explainability extension
