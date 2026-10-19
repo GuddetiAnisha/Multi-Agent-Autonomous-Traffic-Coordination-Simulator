@@ -111,15 +111,7 @@ The reported mean throughput, in completed deliveries per observed hour, is:
 
 In this particular simulation, local priority throughput does not change with network delay because it does not rely on the communication network. The centralized and broker policies perform similarly without delay, but their throughput falls as delay increases. The broker policy incurs additional communication during zone handovers.
 
-These are **results reported by the repository**, not newly executed experiments. They depend on the specific synthetic assumptions. The README and findings do not claim statistical significance or general superiority of one policy across real environments.
 
-## 9. Is it a machine-learning project?
-
-**Partly, yes.** The core Mesa simulation uses rule-based decision policies. The repository also includes a genuine reinforcement-learning extension based on Q-learning.
-
-It is accurate to describe the overall work as a **multi-agent simulation project with a tabular reinforcement-learning and explainability extension**.
-
-It would be misleading to describe all three main coordination policies as trained ML models or claim that the Q-learning policy has already outperformed them in the full traffic simulator.
 
 ## 10. What is reinforcement learning?
 
